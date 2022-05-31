@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "track_dangling|74400000|72096250|d290efb2-a809-46db-8b47-c69e335eb203|00000000-0000-0000-0000-000000000000",
+        "track_dangling|83550000|49372011|f71d995b-6279-40e4-9a3a-e150d3ec56b1|00000000-0000-0000-0000-000000000000",
+        "track_dangling|86954627|79248000|6ad540f0-253f-466e-9bba-e516d3f5c67c|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,12 +89,12 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -414,7 +418,9 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "Net-(Q2-Pad2)": "rgb(255, 26, 76)"
+    }
   },
   "pcbnew": {
     "last_paths": {
