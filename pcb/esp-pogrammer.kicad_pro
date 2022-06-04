@@ -418,9 +418,7 @@
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "Net-(Q2-Pad2)": "rgb(255, 26, 76)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
